@@ -41,6 +41,26 @@ body{
 .wrapper {
    padding: 123px 292px
 }
+@media (max-width: 1140px){
+   .wrapper{
+      padding: 90px 50px 90px 200px;
+   }
+}
+@media (max-width: 850px){
+   .wrapper{
+      padding: 70px 40px 70px 110px;
+   }
+}
+@media (max-width: 630px){
+   .wrapper{
+      padding: 70px 40px 70px 70px;
+   }
+}
+@media (max-width: 425px){
+   .wrapper{
+      padding: 50px 40px 50px 70px;
+   }
+}
 
 
 .list {
@@ -49,11 +69,32 @@ body{
    font-weight: 400;
    color: #273D46;
 }
+@media (max-width: 800px){
+   .list{
+      line-height: 32px;
+      font-size: 16px;
+   }
+}
 .list__container {
    margin-bottom: 130px;
 }
+@media (max-width: 1140px){
+   .list__container{
+      margin-bottom: 100px;
+   }
+}
+@media (max-width: 480px){
+   .list__container{
+      margin-bottom: 70px;
+   }
+}
 .list__group {
    margin-bottom: 75px;
+}
+@media (max-width: 800px){
+   .list__group{
+      margin-bottom: 50px;
+   }
 }
 .list__group__sentences{
 }
@@ -93,9 +134,34 @@ body{
    display: flex;
    margin-bottom: 125px;
 }
+@media (max-width: 850px){
+   .buttons__container{
+      margin-bottom: 100px;
+   }
+}
+@media (max-width: 480px){
+   .buttons__container{
+      margin-bottom: 70px;
+   }
+}
 .buttons__button {
    margin: 0 95px 0 0;
    text-align: center;
+}
+@media (max-width: 1040px){
+   .buttons__button{
+      margin: 0 60px 0 0;
+   }
+}
+@media (max-width: 750px){
+   .buttons__button:last-child{
+      display: none;
+   }
+}
+@media (max-width: 480px){
+   .buttons__button:nth-child(2){
+      display: none;
+   }
 }
 .buttons__button__txt {
    font-size: 14px;
@@ -109,6 +175,13 @@ body{
    width: 199px;
    height: 44px;
 }
+@media (max-width: 980px){
+   .buttons__button__txt{
+      width: 160px;
+      font-size: 12px;
+      letter-spacing: 2.3px;
+   }
+}
 .buttons__button__txt:hover{
    background: #3A5856;
    box-shadow: 0px 6px 40px #3A5856;
@@ -121,6 +194,11 @@ body{
    background: url(../img/Shape\ 2.svg) right no-repeat;
    padding: 0 32px 0 0;
 }
+@media (max-width: 980px){
+   .buttons__button__txt span{
+      padding: 0 28px 0 0;
+   }
+}
 
 .inputs {
 }
@@ -128,6 +206,11 @@ body{
    display: flex;
 }
 .input__button {
+}
+@media (max-width: 940px){
+   .input__button:last-child{
+      display: none;
+   }
 }
 .input__button input{
    margin: 0 80px 0 0;
@@ -140,37 +223,4 @@ body{
 .input__button input:focus{
    border: 1px solid #7FBED5;
    box-shadow: 0px 0px 20px rgba(127, 190, 213, 0.93);
-}
-
-
-@media screen and (max-width: 1130px){
-   .wrapper {
-      padding: 90px 210px
-   }
-
-   .list {
-      font-size: 16px;
-      line-height: 33px;
-   }
-   .list__container {
-      margin-bottom: 110px;
-   }
-   .list__group {
-      margin-bottom: 30px;
-   }
-   .list__group__title {
-      line-height: 35px;
-      letter-spacing: 2.6px;
-      margin-bottom: 9px;
-   }
-   .list__group__sentences li {
-      padding: 0 0 0 32px;
-   }
-   .list__hover__title {
-      line-height: 35px;
-      letter-spacing: 2.6px;
-      right: 175px;
-      top: 75px;
-      font-size: 12px;
-   }
 }
