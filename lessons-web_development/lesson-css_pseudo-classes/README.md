@@ -1,4 +1,4 @@
-# lesson about css background property
+# lesson about css pseudo-classes
 
 This re-creation of the layout with html and css was done to practice the css pseudo-classes.
 
