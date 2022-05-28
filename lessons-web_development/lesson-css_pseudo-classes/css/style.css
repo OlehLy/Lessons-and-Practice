@@ -191,7 +191,7 @@ body{
    box-shadow: none;
 }
 .buttons__button__txt span{
-   background: url(../img/Shape\ 2.svg) right no-repeat;
+   background: url(../img/Shape_2.svg) right no-repeat;
    padding: 0 32px 0 0;
 }
 @media (max-width: 980px){
