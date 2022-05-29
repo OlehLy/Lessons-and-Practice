@@ -11,4 +11,3 @@ I took these lessons from the YouTube channel "Freelance Lifestyle". (link: http
 Website of this blogger: https://fls.guru/
 
 He is a Ukrainian web programmer and blogger.
->>>>>>> 757b50880d8a5f8b5339ef12b6b6d62f18bcf3e1
