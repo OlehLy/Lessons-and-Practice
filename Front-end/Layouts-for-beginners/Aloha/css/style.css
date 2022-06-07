@@ -535,7 +535,7 @@ body{
       align-items: center;
    }
 }
-@media (max-width: 310px){
+@media (max-width: 410px){
    .footer__item_1{
       display: block;
    }
