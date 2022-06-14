@@ -1,0 +1,848 @@
+@font-face {
+	font-family: 'GT Super Display';
+	src: url("../fonts/GT-Super-Display-Super-Trial.eot");
+	src: local("O"), url("../fonts/GT-Super-Display-Super-Trial.woff") format("woff"), 
+			url("../fonts/GT-Super-Display-Super-Trial.ttf") format("truetype"), 
+			url("../fonts/GT-Super-Display-Super-Trial.svg") format("svg");
+	font-weight: 900;
+	font-style: normal;
+}
+* {
+   padding: 0;
+   margin: 0;
+   border: 0;
+}
+*,
+*::before,
+*::after {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html, body {
+   height: 100%;
+   width: 100%;
+   font-size: 100%;
+   line-height: 1;
+   font-size: 14px;
+   -ms-text-size-adjust: 100%;
+   -moz-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family: inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0; border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li {list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
+
+
+/* -----------------------------------------------------------------*/
+html, body{
+   font-family: 'Roboto', sans-serif;
+   height: 100%;
+}
+
+.wrapper {
+   min-height: 100%;
+   display: flex;
+   flex-direction: column;
+
+}
+.container{
+   max-width: 85%;
+   margin: 0 auto;
+}
+
+
+.title{
+   font-family: 'GT Super Display';
+}
+
+.button {
+}
+.button__item {
+}
+.button__item a{
+   
+}
+.button__text {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   font-size: 16px;
+   line-height: 24px;
+   color: #023A15;
+   font-weight: 400;
+   
+   background-color: #FFFFFF;
+   border-radius: 4px;
+   width: 185px;
+   height: 52px;
+
+}
+.button__text::before{
+   content: url(../img/icons/slack-logo.svg);
+   padding-top: 7px;
+   margin-right: 8px;
+}
+@media (max-width: 920px){
+   .button__text {
+      font-size: 13px;
+      line-height: 17px;
+      width: 150px;
+   }
+}
+@media (max-width: 920px){
+   .button__text {
+      font-size: 13px;
+      line-height: 17px;
+      width: 130px;
+   }
+   .button__text::before{
+      content: ' ';
+      padding-top: 0px;
+      margin-right: 0px;
+   }
+}
+
+
+.header {
+   background-color: #023A15;
+}
+.header__container {
+   padding: 32px 0 83px 0;
+}
+.header__row {
+   display: flex;
+   justify-content: space-between;
+}
+.header__section {
+   display: flex;
+   align-items: center;
+}
+.header__item {
+   display: flex;
+   align-items: center;
+}
+.header__logo {
+}
+.header__name {
+   font-family: 'GT Super Display';
+   font-size: 17px;
+   color: #fff;
+   margin-left: 9px;
+}
+.header__list{
+   display: flex;
+}
+.header__list li{
+   margin-left: 20px;
+}
+.header__link{
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 24px;
+   color: #FFFFFF;
+}
+@media (max-width: 1200px){
+   .header__container{
+      padding: 32px 0 53px 0;
+   }
+}
+@media (max-width: 620px){
+   .header__container{
+      padding: 32px 0 33px 0;
+   }
+   .header__row {
+      display: block;
+   }
+   .header__section__text{
+      display: block;
+   }
+   .header__section__logo{
+      justify-content: center;
+      margin-bottom: 20px;
+   }
+   .header__item{
+      display: block;
+   }
+   .header__list{
+      display: block;
+      text-align: center;
+   }
+   .header__list li{
+      margin-bottom: 20px;
+   }
+   .header__list li:last-child{
+      margin-bottom: 0px;
+   }
+}
+
+
+.main {
+   flex: 1 1 auto;
+}
+.main__container {
+}
+
+.main__screen {
+}
+.screen {
+   background-color: #023A15;
+}
+.screen__container {
+   padding-bottom: 63px;
+}
+.screen__row {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.screen__title {
+}
+.screen__title__container {
+}
+.screen__title__item {
+}
+.screen__title__text {
+   font-size: 110px;
+   line-height: 110px;
+   letter-spacing: 2px;
+   color: #FFFFFF;
+   margin-bottom: 30px;
+}
+.screen__title__text span{
+   color: #F09C96;
+}
+.screen__title__button {
+   margin-bottom: 29px;
+}
+.screen__title__discount {
+   font-size: 12px;
+   line-height: 13px;
+   color: #FFFFFF;
+}
+.screen__image {
+}
+.screen__image img{
+}
+@media (max-width: 1350px){
+   .screen__title__text{
+      font-size: 85px;
+      line-height: 80px;
+   }
+   .screen__image img{
+      width: 500px;
+   }
+}
+@media (max-width: 1265px){
+   .screen__image img{
+      width: 450px;
+   }
+}
+@media (max-width: 1205px){
+   .screen__title__text{
+      font-size: 60px;
+      line-height: 70px;
+   }
+   .screen__image img{
+      width: 400px;
+   }
+}
+@media (max-width: 840px){
+   .screen__title__text{
+      font-size: 40px;
+      line-height: 50px;
+   }
+   .screen__image img{
+      width: 300px;
+   }
+}
+@media (max-width: 620px){
+   .screen__title__text{
+      font-size: 30px;
+      line-height: 40px;
+   }
+   .screen__image img{
+      width: 250px;
+   }
+}
+@media (max-width: 500px){
+   .screen__row {
+      flex-wrap: wrap;
+   }
+   .screen__title{
+      order: 2;
+   }
+   .screen__image{
+      margin-bottom: 20px;
+      order: 1;
+   }
+}
+@media (max-width: 300px){
+   .screen__image img{
+      width: 200px;
+   }
+}
+
+
+.main__challenge {
+}
+.challenge {
+}
+.challenge__container {
+   padding: 128px 0 0;
+}   
+.challenge__row {
+   display: flex;
+   justify-content: space-between;
+}
+
+.challenge__text {
+}
+.challenge__text__container {
+}
+.challenge__text__item {
+}
+.challenge__text__title {
+   font-size: 64px;
+   line-height: 84px;
+   letter-spacing: 2px;
+   color: #000000;
+   margin-bottom: 35px;
+}
+.challenge__text__txt {
+   max-width: 460px;
+   font-size: 18px;
+   line-height: 27px;
+   color: #000000;
+}
+.challenge__text__img {
+   position: relative;
+   top: 130px;
+}
+
+.challenge__image {
+   padding-top: 200px;
+}
+.challenge__image img{
+   margin-left: 140px;
+}
+@media (max-width: 1225px){
+   .challenge__text__title{
+      font-size: 59px;
+      line-height: 60px;
+   }
+   .challenge__image {
+      padding-top: 140px;
+   }
+   .challenge__image img{
+      width: 340px;
+   }
+}
+@media (max-width: 1170px){
+   .challenge__text__title{
+      font-size: 50px;
+      line-height: 60px;
+   }
+   .challenge__text__img{
+      top: 90px;
+   }
+   .challenge__text__img img{
+      width: 500px;
+   }
+   .challenge__image{
+      padding-top: 100px;
+   }
+   .challenge__image img{
+      width: 300px;
+      margin-left: 100px;
+   }
+}
+@media (max-width: 1055px){
+   .challenge__text__title{
+      font-size: 50px;
+      line-height: 60px;
+   }
+   .challenge__text__img{
+      top: 70px;
+   }
+   .challenge__text__img img{
+      width: 450px;
+   }
+   .challenge__image img{
+      width: 250px;
+      margin-left: 60px;
+   }
+}
+@media (max-width: 970px){
+   .challenge__text__title{
+      font-size: 35px;
+      line-height: 40px;
+   }
+   .challenge__text__img img{
+      width: 400px;
+   }
+   .challenge__image img{
+      width: 200px;
+      margin-left: 30px;
+   }
+}
+@media (max-width: 720px){
+   .challenge__container {
+      padding: 70px 0 0;
+   }   
+   .challenge__row {
+      display: block;
+   }
+   .challenge__image {
+      display: none;
+   }
+}
+@media (max-width: 460px){
+   .challenge__text__title{
+      font-size: 25px;
+      line-height: 30px;
+   }
+   .challenge__text__img img{
+      width: 300px;
+   }
+}
+@media (max-width: 350px){
+   .challenge__text__img img{
+      width: 250px;
+   }
+}
+@media (max-width: 300px){
+   .challenge__text__img img{
+      width: 200px;
+   }
+}
+
+
+.main__slack {
+}
+.slack {
+   background-color: #FFE6E2;
+}
+.slack__container {
+   padding: 180px 15% 0;
+}
+.slack__row {
+}
+.slack__item {
+   text-align: center;
+}
+.slack__title {
+   margin-bottom: 60px;
+   font-size: 59px;
+   line-height: 77px;
+   letter-spacing: 3px;
+   color: #000000;
+}
+.slack__text {
+   margin: 0 50px;
+   font-size: 18px;
+   line-height: 27px;
+   color: #000000;
+}
+.slack__image {
+   display: flex;
+   justify-content: center;
+   position: relative;
+   top: 60px;
+   filter: drop-shadow(0px 13px 35px rgba(0, 0, 0, 0.1));
+}
+@media (max-width: 1200px){
+   .slack__image img{
+      width: 600px;
+   }
+}
+@media (max-width: 1100px){
+   .slack__title {
+      margin-bottom: 40px;
+      font-size: 40px;
+      line-height: 50px;
+   }
+}
+@media (max-width: 1020px){
+   .slack__container {
+      padding: 160px 0 0;
+   }
+   .slack__title {
+      margin-bottom: 40px;
+      font-size: 40px;
+      line-height: 50px;
+   }
+}
+@media (max-width: 840px){
+   .slack__image img{
+      width: 500px;
+   }
+}
+@media (max-width: 620px){
+   .slack__container {
+      padding: 120px 0 0;
+   }
+   .slack__image img{
+      width: 400px;
+   }
+}
+@media (max-width: 500px){
+   .slack__title {
+      margin-bottom: 30px;
+      font-size: 30px;
+      line-height: 40px;
+   }
+   .slack__text {
+      margin: 0 0px;
+   }
+   .slack__image img{
+      width: 300px;
+   }
+}
+@media (max-width: 350px){
+   .slack__image img{
+      width: 250px;
+   }
+}
+@media (max-width: 300px){
+   .slack__image img{
+      width: 200px;
+   }
+}
+
+
+.main__card {
+}
+.card {
+}
+.card__container {
+   padding: 250px 0 130px;
+}
+.card__title{
+   font-family: 'GT Super Display';
+   margin-bottom: 20px;
+   font-size: 53px;
+   line-height: 72px;
+   letter-spacing: 2px;
+   color: #000000;
+}
+.card__text{
+   max-width: 380px;
+   font-size: 18px;
+   line-height: 27px;
+   color: #000000;
+}
+.card__img{
+
+}
+@media (max-width: 1300px){
+   .card__title{
+      font-size: 45px;
+      line-height: 50px;
+   }
+}
+@media (max-width: 1230px){
+   .card__img img{
+      width: 500px;
+   }
+}
+@media (max-width: 1160px){
+   .card__img img{
+      width: 450px;
+   }
+}
+@media (max-width: 1055px){
+   .card__img img{
+      width: 400px;
+   }
+}
+@media (max-width: 970px){
+   .card__title{
+      font-size: 35px;
+      line-height: 40px;
+   }
+}
+@media (max-width: 850px){
+   .card__text{
+      max-width: none;
+   }
+}
+@media (max-width: 665px){
+   .card__container {
+      padding: 200px 0 130px;
+   }
+   .card__title{
+      font-size: 25px;
+      line-height: 30px;
+   }
+   .card__img img{
+      width: 300px;
+   }
+}
+@media (max-width: 330px){
+   .card__img img{
+      width: 250px;
+   }
+}
+@media (max-width: 270px){
+   .card__img img{
+      width: 200px;
+   }
+}
+
+
+
+.card__educate {
+}
+.educate {
+}
+.educate__container {
+}
+@media (max-width: 850px){
+   .educate__container{
+      margin-bottom: 20px;
+   }
+}
+.educate__row {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+@media (max-width: 850px){
+   .educate__row{
+      flex-wrap: wrap;
+      justify-content: center;
+   }
+}
+.educate__txt {
+   margin-right: 200px;
+}
+@media (max-width: 1160px){
+   .educate__txt{
+      margin-right: 150px;
+   }
+}
+@media (max-width: 970px){
+   .educate__txt{
+      margin-right: 100px;
+   }
+}
+@media (max-width: 850px){
+   .educate__txt{
+      margin-right: 0;
+      order: 2;
+   }
+}
+.educate__txt__item {
+}
+.educate__txt__title {
+}
+.educate__txt__text {
+}
+.educate__image {
+}
+.educate__image img{
+}
+@media (max-width: 850px){
+   .educate__image{
+      order: 1;
+   }
+}
+
+
+.card__celebrate {
+}
+.celebrate {
+}
+.celebrate__container {
+}
+@media (max-width: 850px){
+   .celebrate__container{
+      margin-bottom: 30px;
+   }
+}
+.celebrate__row {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+@media (max-width: 850px){
+   .celebrate__row{
+      flex-wrap: wrap;
+      justify-content: center;
+   }
+}
+.celebrate__image {
+   position: relative;
+   right: 100px;
+}
+@media (max-width: 850px){
+   .celebrate__image{
+      position: static;
+      order: 1;
+   }
+}
+.celebrate__image img{
+}
+.celebrate__txt {
+   margin-left: 100px;
+}
+@media (max-width: 1160px){
+   .celebrate__txt{
+      margin-left: 50px;
+   }
+}
+@media (max-width: 970px){
+   .celebrate__txt{
+      margin-left: 0;
+   }
+}
+@media (max-width: 850px){
+   .celebrate__txt{
+      order: 2;
+   }
+}
+.celebrate__txt__item {
+}
+.celebrate__txt__title {
+}
+.celebrate__txt__text {
+}
+
+
+.card__drive {
+}
+.drive {
+}
+.drive__container {
+}
+.drive__row {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+@media (max-width: 850px){
+   .drive__row{
+      flex-wrap: wrap;
+      justify-content: center;
+   }
+}
+.drive__txt {
+   margin-right: 200px;
+}
+@media (max-width: 1160px){
+   .drive__txt{
+      margin-right: 150px;
+   }
+}
+@media (max-width: 970px){
+   .drive__txt{
+      margin-right: 100px;
+   }
+}
+@media (max-width: 850px){
+   .drive__txt{
+      margin-right: 0;
+      order: 2;
+   }
+}
+.drive__txt__item {
+}
+.drive__txt__title {
+}
+.drive__txt__text {
+}
+.drive__image {
+}
+.drive__image img{
+}
+@media (max-width: 850px){
+   .drive__image{
+      order: 1;
+   }
+}
+
+
+.main__sign {
+}
+.sign {
+   background-color: #023A15;
+}
+.sign__container {
+}
+.sign__item {
+   padding: 128px 10%;
+}
+.sign__title {
+   margin-bottom: 41px;
+   font-size: 106px;
+   line-height: 110px;
+   text-align: center;
+   letter-spacing: 2px;
+   color: #FFFFFF;
+}
+.sign__title span{
+   color: #F09C96;
+}
+.sign__button {
+   display: flex;
+   justify-content: center;
+   margin-bottom: 13px;
+}
+.sign__text {
+   display: flex;
+   justify-content: center;
+   font-size: 12px;
+   line-height: 13px;
+   color: #FFFFFF;
+}
+@media (max-width: 1050px){
+   .sign__title{
+      font-size: 80px;
+      line-height: 90px;
+   }
+}
+@media (max-width: 920px){
+   .sign__item {
+      padding: 78px 0;
+   }
+   .sign__title{
+      font-size: 60px;
+      line-height: 70px;
+   }
+}
+@media (max-width: 720px){
+   .sign__title{
+      font-size: 40px;
+      line-height: 50px;
+   }
+}
+
+
+
+.footer {
+   background-color: #023A15;
+}
+.footer__container {
+   padding: 32px 0;
+}
+.footer__row {
+   display: flex;
+   justify-content: center;
+}
+.footer__text {
+   font-size: 16px;
+   line-height: 24px;
+   text-align: center;
+   color: #FFFFFF;
+}
