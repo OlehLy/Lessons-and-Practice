@@ -1,0 +1,7 @@
+@font-face {
+	font-family: 'Sailec Bold';
+	src: url('../fonts/Sailec Bold/Sailec Bold.eot');
+	src: local('☺'), url('../fonts/Sailec Bold/Sailec Bold/.woff') format('woff'), url('../fonts/Sailec Bold/Sailec Bold.ttf') format('truetype'), url('../fonts/Sailec Bold/Sailec Bold.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
