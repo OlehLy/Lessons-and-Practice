@@ -18,7 +18,12 @@
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px" height="30px"/>
   </h1>
 </div>
+<div id="hello" align="center">
+  <img src="https://media.giphy.com/media/1GEATImIxEXVR79Dhk/giphy.gif" width="600px" height="300px"/>
+</div>
 
+### :man_technologist: About Repository :
 
-This repository was created in order to post here your practical work to create a portfolio.
+This repository was created in order to post here my practice and practical tasks from different programming lessons :closed_book:
 
+Folders with different programming languages or groups of programming languages will be located here, for example: Front-end which includes such programming languages as html, css, javascript and many others.
