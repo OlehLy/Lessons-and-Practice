@@ -8,4 +8,6 @@
 
 
   - :file_folder: <a href="https://github.com/OlehLy/Lessons-and-Practice/tree/main/Front-end/Lessons">Lessons</a> - in this folder I publish layouts, practical tasks from frontend lessons.
-  - :file_folder: <a href="https://github.com/OlehLy/Lessons-and-Practice/tree/main/Front-end/Layouts-for-Junior">Layouts-for-Junior</a> - in this folder I publish simple layouts that do not use javascript.
+  - :file_folder: <a href="https://github.com/OlehLy/Lessons-and-Practice/tree/main/Front-end/Layouts-for-Junior">Layouts-for-Junior</a> - in this folder I publish layouts that do not use javascript.
+  - :file_folder: <a href="https://github.com/OlehLy/Lessons-and-Practice/tree/main/Front-end/Layouts-for-Middle">Layouts-for-Middle</a> - in this folder I publish layouts that use some javascript.
+  - :file_folder: <a href="https://github.com/OlehLy/Lessons-and-Practice/tree/main/Front-end/Layouts-for-Senior">Layouts-for-Senior</a> - in this folder I publish layouts that use a lot of javascript, whole algorithms are involved here.
