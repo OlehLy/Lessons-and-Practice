@@ -552,7 +552,7 @@ html, body{
    width: 200%;
    height: 64px;
    transform: rotate(-4.93deg);
-
+   overflow-x: hidden;
    position: relative;
    right: 30px;
    margin-bottom: 244px;
@@ -568,7 +568,7 @@ html, body{
 .line__item {
    display: inline-block;
    margin-right: 68px;
-   overflow: hidden;
+   overflow-x: hidden;
 }
 .line__text {
    display: inline-block;
@@ -608,7 +608,7 @@ html, body{
    .line__item {
       display: inline-block;
       margin-right: 68px;
-      overflow: hidden;
+      overflow-x: hidden;
    }
    .line__text {
       display: inline-block;
@@ -644,7 +644,7 @@ html, body{
    .line__item {
       display: inline-block;
       margin-right: 68px;
-      overflow: hidden;
+      overflow-x: hidden;
    }
    .line__text {
       display: inline-block;
