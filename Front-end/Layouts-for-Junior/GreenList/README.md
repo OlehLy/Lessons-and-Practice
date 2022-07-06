@@ -2,7 +2,9 @@
 
 # GreenList
 
-Project "GreenList" - Real site that I created from the layout
+### Genre: Corporate messenger
+
+#### Format: figma
 
 Link to website: https://olehly.github.io/Lessons-and-Practice/Front-end/Layouts-for-Junior/GreenList/index.html
 

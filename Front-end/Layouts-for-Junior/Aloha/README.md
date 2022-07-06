@@ -2,7 +2,9 @@
 
 # Aloha
 
-Project "Aloha" - the first real site that I created from the layout
+### Genre: portfolio template
+
+#### Format: figma
 
 Link to website: https://olehly.github.io/Lessons-and-Practice/Front-end/Layouts-for-Junior/Aloha/index.html
 

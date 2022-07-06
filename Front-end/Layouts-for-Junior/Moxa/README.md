@@ -2,7 +2,9 @@
 
 # Moxa
 
-Project "Moxa" - Real site that I created from the layout
+### Genre: creative portfolio
+
+#### Format: figma
 
 Link to website: https://olehly.github.io/Lessons-and-Practice/Front-end/Layouts-for-Junior/Moxa/index.html
 

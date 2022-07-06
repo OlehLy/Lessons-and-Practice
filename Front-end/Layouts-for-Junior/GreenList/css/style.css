@@ -282,17 +282,18 @@ html, body{
    .screen__title{
       order: 2;
    }
+	.screen__title__text{
+      font-size: 40px;
+      line-height: 50px;
+   }
    .screen__image{
       margin-bottom: 20px;
       order: 1;
    }
-}
-@media (max-width: 300px){
-   .screen__image img{
-      width: 200px;
+	.screen__image img{
+      width: 100%;
    }
 }
-
 
 .main__challenge {
 }

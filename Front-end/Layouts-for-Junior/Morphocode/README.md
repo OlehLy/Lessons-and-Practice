@@ -2,7 +2,9 @@
 
 # Morphocode
 
-Project "Morphocode" - Real site that I created from the layout
+### Genre: Data visualization and analysis service
+
+#### Format: figma
 
 Link to website: https://olehly.github.io/Lessons-and-Practice/Front-end/Layouts-for-Junior/Morphocode/index.html
 

@@ -2,7 +2,9 @@
 
 # Dwel
 
-Project "Dwel" - Real site that I created from the layout
+### Genre: portfolio
+
+#### Format: figma
 
 Link to website: https://olehly.github.io/Lessons-and-Practice/Front-end/Layouts-for-Junior/Dwel/index.html
 
