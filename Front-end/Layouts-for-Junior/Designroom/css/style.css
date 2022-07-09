@@ -73,9 +73,7 @@ html, body{
 	transition-timing-function: ease;
 }
 .button_1 a:hover{
-	padding: 36px 58px;
-	font-size: 21px;
-
+	transform: scale(1.1);
 }
 .button_2{
 	display: inline-block;
@@ -98,8 +96,7 @@ html, body{
 	transition-timing-function: ease;
 }
 .button_2 a:hover{
-	padding: 36px 58px;
-	font-size: 21px;
+	transform: scale(1.1);
 }
 @media (max-width: 570px){
 	.buttons {
@@ -238,8 +235,7 @@ html, body{
 	transition-timing-function: ease;
 }
 .header__button a:hover{
-	font-size: 17px;
-	padding: 20px 26px;
+	transform: scale(1.1);
 }
 @media (max-width: 930px){
 	.header__section:last-child {
@@ -571,8 +567,7 @@ html, body{
 	transition-timing-function: ease;
 }
 .services__button a:hover{
-	font-size: 21px;
-	padding: 36px 58px;
+	transform: scale(1.1);
 }
 .services__images {
 	display: inline-block;
@@ -707,8 +702,7 @@ html, body{
 	transition-timing-function: ease;
 }
 .about__button a:hover{
-	font-size: 21px;
-	padding: 36px 58px;
+	transform: scale(1.1);
 }
 .about__images {
 	display: inline-block;
@@ -844,12 +838,38 @@ html, body{
 }
 .portfolio__card__item {
 }
+.portfolio__card__item a{
+	display: block;
+	opacity: 1;
+	transition-duration: .3s;
+	transition-timing-function: ease;
+}
+.portfolio__card__item a:hover{
+	opacity: 0.6;
+	transform: scale(0.9);
+}
 .portfolio__card__img{
 	margin-bottom: 30px;
-}
-.portfolio__card__img img{
+	height: 500px;
+	position: relative;
+	overflow: hidden;
 	width: 100%;
 	border-radius: 46px;
+}
+.portfolio__card__img img{
+	border-radius: 46px;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	height: 100%;
+	object-fit:cover;
+	width: 100%;
+	transition: 1s;
+}
+.portfolio__card__img img:hover{
+	border-radius: 46px;
+	transform: translate(-50%,-50%) scale(1.2);
 }
 .portfolio__card__title {
 	font-weight: 700;
@@ -858,14 +878,10 @@ html, body{
 	color: #231D70;
 	margin-bottom: 18px;
 }
-.portfolio__card__link a{
+.portfolio__card__link{
 	font-size: 24px;
 	line-height: 26px;
 	color: #231D70;	
-}
-.portfolio__card__link a:hover{
-	content: '';
-	text-decoration: underline;
 }
 .portfolio__buttons {
 	display: flex;
@@ -1003,8 +1019,7 @@ html, body{
 	transition-timing-function: ease;
 }
 .project__txt__button a:hover{
-	font-size: 21px;
-	padding: 36px 58px;
+	transform: scale(1.1);
 }
 .project__section_img {
 }
@@ -1183,6 +1198,11 @@ html, body{
 	background-color: #231D70;
 	border-radius: 20px;
 	left: 50px;
+	transition-duration: .2s;
+	transition-timing-function: ease;
+}
+.process__block:hover{
+	transform: scale(1.1);
 }
 .process__blocks{
 	display: none;
@@ -1215,8 +1235,7 @@ html, body{
 	transition-timing-function: ease;
 }
 .process__button__item a:hover{
-	font-size: 21px;
-	padding: 36px 58px;
+	transform: scale(1.1);
 }
 .process__images {
 	display: inline-block;
@@ -1292,6 +1311,11 @@ html, body{
 		height: 58px;
 		background-color: #231D70;
 		border-radius: 20px;
+		transition-duration: .2s;
+		transition-timing-function: ease;
+	}
+	.process__block_1:hover{
+		transform: scale(1.1);
 	}
 	.process__block_2{
 		display: block;
@@ -1299,6 +1323,11 @@ html, body{
 		height: 58px;
 		background-color: #231D70;
 		border-radius: 20px;
+		transition-duration: .2s;
+		transition-timing-function: ease;
+	}
+	.process__block_2:hover{
+		transform: scale(1.1);
 	}
 	.process__images {
 		display: none;
@@ -1381,8 +1410,7 @@ html, body{
 }
 
 .articles__button a:hover{
-	font-size: 21px;
-	padding: 36px 58px;
+	transform: scale(1.1);
 }
 .articles__cards {
 	display: grid;
@@ -1394,13 +1422,20 @@ html, body{
 }
 .articles__card__item {
 }
+.articles__card__item {
+	display: block;
+	transition-duration: .3s;
+	transition-timing-function: ease;
+}
+.articles__card__item:hover{
+	transform: scale(0.9);
+}
 .articles__card__img {
 	height: 412px;
    position: relative;
    overflow: hidden;
    width: 100%;
 	border-radius: 32px;
-	margin-bottom: -30px;
 }
 .articles__card__img img{
    position: absolute;
@@ -1410,13 +1445,18 @@ html, body{
    height: 450px;
    object-fit:cover;
    width: 100%;
+	transition: 1s;
+}
+.articles__card__img img:hover{
+	transform: translate(-50%,-50%) scale(1.2);
 }
 .articles__card__button {
 	display: inline-block;
 	position: relative;
 	z-index: 2;
-	bottom: 350px;
+	top: 100px;
 	left: 30px;
+	opacity: 1;
 }
 .articles__card__button a{
 	display: inline-block;
@@ -1425,6 +1465,7 @@ html, body{
 	text-align: center;
 	color: #231D70;
 	padding: 18px 29px;
+	opacity: 1;
 	
 	background: #FFFFFF;
 	border: 1px solid #E0E3EA;
@@ -1435,15 +1476,14 @@ html, body{
 }
 
 .articles__card__button a:hover{
-	font-size: 19px;
-	padding: 19px 30px;
+	opacity: 1;
+	transform: scale(1.1);
 }
 .articles__card__text{
-	padding-left: 10px;
 }
 .articles__card__title{
 }
-.articles__card__title a{
+.articles__card__title{
 	display: inline-block;
 	font-weight: 700;
 	font-size: 30px;
@@ -1451,14 +1491,10 @@ html, body{
 	color: #231D70;
 	margin-bottom: 18px;
 }
-.articles__card__title a:hover{
-	text-decoration: underline;
-}
 .articles__card__data {
 	font-size: 20px;
 	line-height: 22px;
 	color: #595390;
-	
 }
 .articles__images {
 	display: inline-block;
@@ -1586,9 +1622,7 @@ html, body{
 	transition-timing-function: ease;
 }
 .work__button_1 a:hover{
-	font-size: 21px;
-	width: 378px;
-	height: 94px;
+	transform: scale(1.1);
 }
 .work__button_2 a{
 	display: flex;
@@ -1608,9 +1642,7 @@ html, body{
 	transition-timing-function: ease;
 }
 .work__button_2 a:hover{
-	font-size: 21px;
-	width: 378px;
-	height: 94px;
+	transform: scale(1.1);
 }
 .work__images {
 	display: inline-block;
@@ -1708,20 +1740,12 @@ html, body{
 		text-align: center;
 		padding: 35px 17px;
 	}
-	.work__button_1 a:hover{
-		font-size: 21px;
-		padding: 36px 18px;
-	}
 	.work__button_2 a{
 		display: block;
 		width: auto;
 		height: auto;
 		text-align: center;
 		padding: 35px 17px;
-	}
-	.work__button_2 a:hover{
-		font-size: 21px;
-		padding: 36px 18px;
 	}
 }
 @media (max-width: 460px){
@@ -1766,6 +1790,11 @@ html, body{
 	width: 36px;
 	height: 36px;
 	margin-right: 15px;
+	transition-duration: .1s;
+	transition-timing-function: ease;
+}
+.footer__block:hover{
+	transform: scale(1.1);
 }
 .footer__section__text {
 	margin-left: 138px;

@@ -396,7 +396,7 @@ html, body{
 		top:50%;
 		left:50%;
 		transform:translate(-50%,-50%);
-		height: 450px;
+		height: 100%;
 		object-fit:cover;
 		width: 100%;
 		transition: 1s;

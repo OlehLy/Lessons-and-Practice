@@ -7,7 +7,7 @@
 :card_index_dividers: The Front-End folder is divided into several more folders: :file_folder: <a href="https://github.com/OlehLy/Lessons-and-Practice/tree/main/Front-end/Lessons">Lessons</a>, :file_folder: <a href="https://github.com/OlehLy/Lessons-and-Practice/tree/main/Front-end/Layouts-for-Junior">Layouts-for-Junior</a>, :file_folder: <a href="https://github.com/OlehLy/Lessons-and-Practice/tree/main/Front-end/Layouts-for-Middle">Layouts-for-Middle</a>, :file_folder: <a href="https://github.com/OlehLy/Lessons-and-Practice/tree/main/Front-end/Layouts-for-Senior">Layouts-for-Senior</a>.
 
 
-  - :file_folder: <a href="https://github.com/OlehLy/Lessons-and-Practice/tree/main/Front-end/Lessons">Lessons</a> - in this folder I publish layouts, practical tasks from frontend lessons.
+  - :file_folder: <a href="https://github.com/OlehLy/Lessons-and-Practice/tree/main/Front-end/Lessons">Lessons</a> - in this folder I publish layouts, practical tasks from frontend lessons and simple projects that I did in order to practice.
   - :file_folder: <a href="https://github.com/OlehLy/Lessons-and-Practice/tree/main/Front-end/Layouts-for-Junior">Layouts-for-Junior</a> - in this folder I publish layouts that do not use javascript.
   - :file_folder: <a href="https://github.com/OlehLy/Lessons-and-Practice/tree/main/Front-end/Layouts-for-Middle">Layouts-for-Middle</a> - in this folder I publish layouts that use some javascript.
   - :file_folder: <a href="https://github.com/OlehLy/Lessons-and-Practice/tree/main/Front-end/Layouts-for-Senior">Layouts-for-Senior</a> - in this folder I publish layouts that use a lot of javascript, whole algorithms are involved here.
