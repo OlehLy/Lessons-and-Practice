@@ -24,6 +24,8 @@
 
 ### :man_technologist: About Repository :
 
-This repository was created in order to post here my practice and practical tasks from different programming lessons :closed_book:
+:closed_book: This repository was created in order to post here my practice and practical tasks from different programming lessons.
 
-Folders with different programming languages or groups of programming languages will be located here, for example: Front-end which includes such programming languages as html, css, javascript and many others.
+:computer: In this repository, I post most of the projects that I created.
+
+:exclamation: Folders with different programming languages or groups of programming languages will be located here, for example: Front-end which includes such programming languages as html, css, javascript and many others.
