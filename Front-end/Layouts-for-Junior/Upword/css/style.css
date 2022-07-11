@@ -453,7 +453,6 @@ html, body{
 
 .read {
 	border-bottom: 1px solid #202020;
-	margin-bottom: 70px;
 }
 .read__container {
 }
@@ -517,8 +516,11 @@ html, body{
 	}
 }
 @media (max-width: 800px){
+	.read {
+		margin-bottom: 80px;
+	}
 	.read__container {
-		padding: 50px 0 70px;
+		padding: 50px 0 100px;
 	}
 	.read__row {
 		display: flex;
@@ -549,7 +551,6 @@ html, body{
 
 
 .actively {
-
 }
 .actively__container {
 }
@@ -602,8 +603,11 @@ html, body{
 	}
 }
 @media (max-width: 800px){
+	.actively {
+		margin-bottom: 200px;
+	}
 	.faster__container {
-		padding: 70px 0 150px;
+		padding: 70px 0;
 	}
 	.actively__row {
 		display: block;
